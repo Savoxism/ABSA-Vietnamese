@@ -179,9 +179,9 @@ def normalize_acronym(text):
 ### STEP 4: WORD SEGMENTATION   
 # annotator = VnCoreNLP("VnCoreNLP/VnCoreNLP-1.1.1.jar")
 
-def word_segmentation(text):
-    words = annotator.tokenize(text)
-    return ' '.join(word for word in flatten(words))
+# def word_segmentation(text):
+#     words = annotator.tokenize(text)
+#     return ' '.join(word for word in flatten(words))
 
 
 ### STEP 5: REMOVE UNNECESSARY CHARACTERS
