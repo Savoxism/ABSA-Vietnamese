@@ -1,7 +1,8 @@
 # ABSA-Vietnamese
 This is a complete reimplementation on how to solve Aspect-based Sentiment Analysis in the Vietnamese hotel reviews.
 
-You can read my blog to see how I approach this task: ![Aspect-based Sentiment Analysis Vietnamese](https://www.kaggle.com/code/phuannguyen/inference-phobert)
+You can read my blog to see how I approached this task:
+[Aspect-based Sentiment Analysis Vietnamese](https://neuroxism.com/Sentiment+Analysis/Aspect-Based+Sentiment+Analysis+Vietnamese#1.+Setup)
 
 ![](attachments\ACSA-v1.png)
 
