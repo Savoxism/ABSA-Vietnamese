@@ -19,8 +19,11 @@ You can read my blog to see how I approach this task: ![Aspect-based Sentiment A
 
 - Preprocessing: 
 ```mermaid 
-flowchart LR
-A[Remove\nHTML] --> B[Standardize\nUnicode] --> C[Normalize\nAcronym] --> D[Word\nSegmentation] --> E[Remove\nunnecessary\ncharacters]
+flowchart TB
+  A[Remove HTML] --> B[Unicode Norm]
+  B --> C[Acronym Norm]
+  C --> D[Word Segmentation]
+  D --> E[Clean Text]
 ```
 
 ## Results
