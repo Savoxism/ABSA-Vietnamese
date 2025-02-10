@@ -4,7 +4,7 @@ This is a complete reimplementation on how to solve Aspect-based Sentiment Analy
 You can read my blog to see how I approached this task:
 [Aspect-based Sentiment Analysis Vietnamese](https://neuroxism.com/Sentiment+Analysis/Aspect-Based+Sentiment+Analysis+Vietnamese#1.+Setup)
 
-![](attachments\ACSA-v1.png)
+![Multi-task Approach](attachments\ACSA-v1.png)
 
 # Dataset
 - The VLSP 2018 Aspect-based Sentiment Analysis dataset:
