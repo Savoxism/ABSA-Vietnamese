@@ -16,8 +16,11 @@ This is a complete reimplementation on how to solve Aspect-based Sentiment Analy
 
 - Preprocessing: 
 ```mermaid 
-flowchart LR
-A[Remove HTML] --> B[Standardize Unicode] --> C[Normalize Acronym] --> D[Word Segmentation] --> E[Remove unnecessary characters]
+flowchart TB
+  A[Remove HTML] --> B[Unicode Norm]
+  B --> C[Acronym Norm]
+  C --> D[Word Segmentation]
+  D --> E[Clean Text]
 ```
 
 ## Results
